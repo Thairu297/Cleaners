@@ -1,0 +1,196 @@
+.flex-container {
+  text-align: center;
+  flex: 1;
+  background-color: rgb(232, 250, 187);
+}
+.flex-container ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 6px 10px;
+  position: relative;
+}
+.flex-container ul li a {
+  color: rgb(25, 139, 97);
+  text-decoration: none;
+  font-size: 25px;
+}
+.flex-container ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: rgb(86, 98, 94);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+  transform: translateY(-2px);
+}
+.flex-container ul li:hover::after {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arima Madurai", cursive;
+  font-family: "Katibeh", cursive;
+}
+.logo {
+  align-content: center;
+  background-color: rgb(232, 250, 187);
+}
+.logo1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.nav-links {
+  word-spacing: 10px;
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-color: rgb(184, 188, 187);
+}
+.text-box {
+  width: 90%;
+  color: rgb(184, 188, 187);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 100px;
+}
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 34px;
+  color: rgb(184, 188, 187);
+}
+.us-button {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(25, 139, 97);
+  border: 1px solid rgb(232, 250, 187);
+  padding: 12px 34px;
+  font-size: 25px;
+  background: rgb(232, 250, 187);
+  position: relative;
+  cursor: pointer;
+}
+.us-button:hover {
+  border: 1px solid rgb(86, 98, 94);
+  background: rgb(86, 98, 94);
+  transition: 0.5s;
+  transform: translateY(-2px);
+  color: rgb(206, 218, 214);
+}
+nav .fa {
+  display: none;
+}
+@media (max-width: 700px) {
+  .text-box h1 {
+    font-size: 60px;
+  }
+  .text-box p {
+    font-size: 24px;
+  }
+
+  .flex-container ul li {
+    display: block;
+  }
+  .flex-container {
+    position: absolute;
+    background: rgb(86, 98, 94);
+    height: 100vh;
+    width: 160px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+  }
+  .flex-container ul li a {
+    color: rgb(206, 218, 214);
+  }
+  .services-button {
+    border: 1px solid rgb(232, 250, 187);
+    padding: 8px 30px;
+    font-size: 25px;
+    background: rgb(232, 250, 187);
+    position: relative;
+    cursor: pointer;
+  }
+  .flex-container ul {
+    padding: 30px;
+  }
+  .flex-container ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: rgb(25, 139, 97);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  .flex-container ul li:hover::after {
+    width: 100%;
+  }
+}
+
+/*------service-----*/
+.service {
+  width: 100%;
+  margin: auto;
+  padding-top: 40px;
+  text-align: center;
+}
+.h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(25, 139, 97);
+}
+.explain {
+  color: rgb(86, 98, 94);
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.row1 {
+  display: flex;
+  margin-top: 1%;
+  justify-content: space-between;
+}
+.row2 {
+  display: flex;
+  margin-top: 1%;
+  justify-content: space-between;
+}
+.row3 {
+  display: flex;
+  margin-top: 1%;
+  justify-content: space-between;
+}
+.service-col {
+  flex-basis: 31%;
+  background: rgb(206, 218, 214);
+  border-radius: 10px;
+  margin: auto;
+  padding: 15px 8px;
+  box-sizing: border-box;
+}
+.service-type {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+  color: rgb(25, 139, 97);
+}
+.service-explain {
+  color: rgb(86, 98, 94);
+}

@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arima Madurai", cursive;
+  font-family: "Katibeh", cursive;
+}
+.service {
+  width: 100%;
+  margin: auto;
+  padding-top: 40px;
+  text-align: center;
+}
+.h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(25, 139, 97);
+  text-align: center;
+}
+.explain {
+  color: rgb(86, 98, 94);
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+  text-align: center;
+}
+.service-col {
+  flex-basis: 31%;
+  margin: auto;
+}
+.service-type {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+  color: rgb(25, 139, 97);
+}
+.service-explain {
+  color: rgb(86, 98, 94);
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 3, 0.7), rgba(4, 9, 3, 0.7)),
+    url(../Admin/background.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container {
+  text-align: right;
+  flex: 1;
+  background-color: rgb(232, 250, 187);
+}
+
+.flex-container1 {
+  text-align: center;
+  flex: 1;
+  background-color: rgb(232, 250, 187);
+  border-radius: 10px;
+  padding: 9px 12px;
+  margin: 0%;
+}
+.flex-container1 h2 {
+  color: rgb(25, 139, 97);
+  font-size: 35px;
+}
+
+.flex-container ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px 30px;
+  position: relative;
+}
+.flex-container ul li a {
+  color: rgb(25, 139, 97);
+  text-decoration: none;
+  font-size: 25px;
+}
+.flex-container ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: rgb(86, 98, 94);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+  transform: translateY(-2px);
+}
+.flex-container ul li:hover::after {
+  width: 100%;
+}
+.container {
+  width: 900px;
+  min-height: 600px;
+  background: rgb(206, 218, 214);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.container .table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.container .table .table-head {
+  text-align: left;
+  padding: 8px;
+  font-size: 25px;
+  color: rgb(86, 98, 94);
+}
+.container .table .table-data {
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+  color: rgb(86, 98, 94);
+}
+.container .login-text {
+  color: rgb(86, 98, 94);
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
+  display: block;
+  text-transform: capitalize;
+}
+.container .login-email .input-group {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+  margin-left: 32px;
+}
+
+.container .login-email .input-group input {
+  width: 70%;
+  height: 90%;
+  border: 1px solid rgb(86, 98, 94);
+  padding: 5px 15px;
+  font-size: 23px;
+  border-radius: 30px;
+  background: transparent;
+  outline: none;
+  transition: 0.3s;
+  margin-left: 32px;
+  margin-top: 23px;
+  color: rgb(86, 98, 94);
+}
+.container .login-email .input-group input:focus,
+.container .login-email .input-group input:valid {
+  border-color: rgb(25, 139, 97);
+}
+.container .login-email .input-group .button-login {
+  display: block;
+  width: 30%;
+  padding: 10px 20px;
+  text-align: center;
+  border: none;
+  background: rgb(86, 98, 94);
+  outline: none;
+  border-radius: 30px;
+  font-size: 23px;
+  color: rgb(206, 218, 214);
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 170px;
+  justify-content: center;
+}
+.container .login-email .input-group .button-login:hover {
+  transition: 0.5s;
+  transform: translateY(-2px);
+  background: rgb(25, 139, 97);
+  color: rgb(206, 218, 214);
+}
+
+.container .signup {
+  color: rgb(206, 218, 214);
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  padding: 15px 25px;
+}
+.container .signup:hover {
+  color: rgb(25, 139, 97);
+}
+.container1 {
+  width: 600px;
+  min-height: 600px;
+  background: rgb(206, 218, 214);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.container1 .table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.container1 .table .table-head {
+  text-align: left;
+  padding: 8px;
+  font-size: 25px;
+  color: rgb(86, 98, 94);
+}
+.container1.table .table-data {
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+  color: rgb(86, 98, 94);
+}
+.container1 .login-text {
+  color: rgb(86, 98, 94);
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
+  display: block;
+  text-transform: capitalize;
+}
+.container1 .login-email .input-group {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+  margin-left: 32px;
+}
+
+.container1 .login-email .input-group input {
+  width: 70%;
+  height: 90%;
+  border: 1px solid rgb(86, 98, 94);
+  padding: 5px 15px;
+  font-size: 23px;
+  border-radius: 30px;
+  background: transparent;
+  outline: none;
+  transition: 0.3s;
+  margin-left: 32px;
+  margin-top: 23px;
+  color: rgb(86, 98, 94);
+}
+.container1 .login-email .input-group input:focus,
+.container1 .login-email .input-group input:valid {
+  border-color: rgb(25, 139, 97);
+}
+.container1 .login-email .input-group .button-login {
+  display: block;
+  width: 30%;
+  padding: 10px 20px;
+  text-align: center;
+  border: none;
+  background: rgb(86, 98, 94);
+  outline: none;
+  border-radius: 30px;
+  font-size: 23px;
+  color: rgb(206, 218, 214);
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 170px;
+  justify-content: center;
+}
+.container1 .login-email .input-group .button-login:hover {
+  transition: 0.5s;
+  transform: translateY(-2px);
+  background: rgb(25, 139, 97);
+  color: rgb(206, 218, 214);
+}
+
+.container1 .signup {
+  color: rgb(206, 218, 214);
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  padding: 15px 25px;
+}
+.container1 .signup:hover {
+  color: rgb(25, 139, 97);
+}
+.link_home {
+  color: rgb(86, 98, 94);
+  text-decoration: underline;
+  font-size: 22px;
+  margin-left: 240px;
+}
+.link_home:hover {
+  color: rgb(25, 139, 97);
+}
+.link_home1 {
+  color: rgb(206, 218, 214);
+  text-decoration: underline;
+  font-size: 25px;
+  margin-left: 120px;
+}
+.link_home1:hover {
+  color: rgb(25, 139, 97);
+}
+.join {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(206, 218, 214);
+  border: 1px solid rgb(25, 139, 97);
+  padding: 12px 34px;
+  font-size: 22px;
+  background: rgb(25, 139, 97);
+  position: relative;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.join:hover {
+  border: 1px solid rgb(86, 98, 94);
+  background: rgb(86, 98, 94);
+  transition: 0.5s;
+  transform: translateY(-2px);
+  color: rgb(206, 218, 214);
+}
+.join1 {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(206, 218, 214);
+  border: 1px solid rgb(86, 98, 94);
+  padding: 5px 8px;
+  font-size: 22px;
+  background: rgb(86, 98, 94);
+  position: relative;
+  cursor: pointer;
+}
+.join1:hover {
+  border: 1px solid rgb(86, 98, 94);
+  background: rgb(25, 139, 97);
+  transition: 0.5s;
+  transform: translateY(-2px);
+  color: rgb(206, 218, 214);
+}
